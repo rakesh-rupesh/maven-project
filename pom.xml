@@ -29,7 +29,7 @@
     </site>
   </distributionManagement>
 
-  <build>
+  /*<build>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -37,7 +37,7 @@
           <source>1.7</source>
           <target>1.7</target>
         </configuration>
-      </plugin>
+      </plugin> */
 
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
