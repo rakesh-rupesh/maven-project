@@ -17,7 +17,7 @@ pipeline {
 
 
             steps {
-                withMaven(maven : 'LocalMaven')
+                withMaven(maven : 'Local MVN')
                 {
                     sh 'mvn test'
                 }
